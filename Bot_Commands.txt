@@ -1,0 +1,35 @@
+COMMANDS TO COPY NEW BINARIES
+-------------------------------
+ssh root@143.110.250.108
+
+Transfr Zip file from filezilla to root server.
+unzip file in root server -  
+1 - unzip <file-name>
+Binaries
+Copy files to container - 
+1 - docker exec bp sh -c 'rm -rf /botpress/'
+2 - docker cp binaries/ bp:/botpress
+3 - docker exec bp sh -c 'pm2 restart all'
+
+If command 3 not works =>
+1 - cd b	c
+2 - cd /botpress/
+3 - pm2 start bp
+
+docker cp BluenxtFour/ bp:/botpress
+
+bb9acb2942e57b71748f545113
+{{event.nlu.slots.toCity.value}}
+https://we.tl/t-LKGxZm2Y9W
+bb9acb2942e57b71748f545113
+api key
+c2rlapaad3icoseppbng
+
+
+ID = ssh root@143.110.250.108
+
+Key = 2334fRdqwDrf!2sdc#4$aS
+
+pass  = 2334fRdqwDrf!2sdc#4$aS
+
+	
